@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+  border-radius: 128px;
+  border: 2px solid #6564DB;
+  background: url('/profile.png') lightgray 50% / cover no-repeat;
+}
+
+.text {
+  text-align: center;
+  width: 80%;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.span {
+  color: #6564db;
+}

@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card {
+  width: 328px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: linear-gradient(
+    113deg,
+    rgba(255, 255, 255, 0.51) 3.51%,
+    rgba(255, 255, 255, 0) 111.71%
+  );
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  backdrop-filter: blur(10.252809524536133px);
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  gap: 1rem;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.card_coffee {
+  width: 328px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1.758px solid rgba(0, 0, 0, 0.5);
+  background: #313131;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  backdrop-filter: blur(10.252809524536133px);
+  color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
