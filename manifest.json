@@ -1,0 +1,21 @@
+{
+    "name": "Fernanda Vaz - Links",
+    "short_name": "Links",
+    "description": "Todos os meus links importantes",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "/preview.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/preview.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
